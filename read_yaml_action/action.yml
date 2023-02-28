@@ -22,6 +22,10 @@ outputs:
     description: 'The resource group the AML workspace is in'
   aml_workspace:
     description: 'The AML workspace'
+  vnet:
+    description: 'The AML workspace vnet'
+  subnet:
+    description: 'The AML workspace subnet'
   bep:
     description: 'The batch endpoint name'
   oep:
